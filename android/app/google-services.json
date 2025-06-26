@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227254692534",
+    "project_id": "alkaramviandes-f3312",
+    "storage_bucket": "alkaramviandes-f3312.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227254692534:android:009e52458cb9caf7685417",
+        "android_client_info": {
+          "package_name": "com.alkaramviandes.alkaramviande"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227254692534-25t4ricb7lqfr7l90h66vn1i6ui7oavg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alkaramviandes.alkaramviande",
+            "certificate_hash": "8c9ca3813421d28ad1d4367e4b0d298f48d8669e"
+          }
+        },
+        {
+          "client_id": "227254692534-1ncs6vu10llev6engeqt22b7uga73n5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI5-H0YzK4neknd7w3wX0flTmOPsugDI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227254692534-1ncs6vu10llev6engeqt22b7uga73n5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
