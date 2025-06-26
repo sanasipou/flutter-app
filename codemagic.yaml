@@ -1,0 +1,16 @@
+workflows:
+  ios-workflow:
+    name: iOS IPA Build
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        BUNDLE_ID: com.example.app
+    scripts:
+      - name: Install dependencies
+        script: flutter pub get
+      - name: Build IPA
+        script: flutter build ipa --release --no-codesign
+    artifacts:
+      - build/ios/ipa/*.ipa
